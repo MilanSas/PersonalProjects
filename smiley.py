@@ -4,7 +4,7 @@ def big_smiley(i):
     #sets optimal scale, optimal scale starts at big_smiley(1)
     if i < 1:
         print("scale to low")
-    i = 24 + i *12 
+    i = 24 + i *6 
     radius = i/2 
     middenooglinks = i/3
     middenoogrechts= middenooglinks + i/3   
